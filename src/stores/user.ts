@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 export const useUserStore = defineStore('user', () => {
   const authData = [
     {
-      email: 'admin@gemail.com',
+      email: 'admin@gmail.com',
       username: 'Admin',
       password: 'admin',
       roles: 'admin'
